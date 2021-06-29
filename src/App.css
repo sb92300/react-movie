@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 100vh;
+  background: #000;
+  margin: 0 auto;
+}
+.input-box1 {
+  display: block;
+  width: 250px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+.btn1 { 
+  width: 119px;
+  margin : 10px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e6e4e4;
+  box-shadow: 1px 1px 4px 0.2px #c0bfbf;
+}
+.btn1:hover {
+  transition: all 0.3s;
+  background-color: #dbdbdb;
+}
+.btn1:focus {
+  background-color: #cac9c9;
+}
+ 
+/* login start */
+.login-container {
+  width: 350px;
+  height: 100vh;
+  background-color: #fff;
+  margin-left: 60%;
+  border-top: 1px solid #fff;
+}
+.login-wrap{
+  margin-top: 320px;
+}
+/* login end */
